@@ -9,17 +9,17 @@ la temperatura y humedad de cada galpón, reciben notificaciones críticas, revi
 ## Estructura
 ```
 com.example.appalertagalpones
-├── MainActivity.kt              Crea BD, repositorios y fábrica de ViewModels (Guía 14)
+├── MainActivity.kt              Crea BD, repositorios y fábrica de ViewModels
 ├── data
-│   ├── model                    Entidades Room y modelos: Galpon, Medicion, Alerta, AccionRegistrada, Usuario, Estado (Guía 10)
-│   ├── remote                   MonitoreoApi + FakeMonitoreoApi (API simulada)
-│   ├── MonitoreoDao / AppDatabase / MonitoreoRepository     Room (Guía 14)
-│   ├── PreferenciasRepository   DataStore: sesión y umbrales (Guía 12)
+│   ├── model                    Entidades Room y modelos: Galpon, Medicion, Alerta, AccionRegistrada, Usuario, Estado
+│   ├── remote                   MonitoreoApi + FakeMonitoreoApi
+│   ├── MonitoreoDao / AppDatabase / MonitoreoRepository     Room
+│   ├── PreferenciasRepository   DataStore: sesión y umbrales
 │   └── FotoStorage              Evidencia en almacenamiento interno
 ├── ui
-│   ├── navigation               AppRoutes + AppNavigation: Scaffold, TopAppBar, NavigationBar, Drawer (Guía 10)
+│   ├── navigation               AppRoutes + AppNavigation: Scaffold, TopAppBar, NavigationBar, Drawer
 │   ├── screen                   Pantallas Compose
-│   ├── viewmodel                ViewModels con StateFlow, UiState y validarFormulario() (Guías 11–12), fábrica
+│   ├── viewmodel                ViewModels con StateFlow, UiState y validarFormulario(), fábrica
 │   ├── components               CampoTexto, SelectorDesplegable, GraficoLinea
 │   └── theme
 └── util                         Notificador, formatos
