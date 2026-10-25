@@ -2,9 +2,6 @@ package com.example.appalertagalpones.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.alertagalpones.data.FotoStorage
-import com.example.alertagalpones.data.MonitoreoRepository
-import com.example.alertagalpones.data.PreferenciasRepository
 import com.example.alertagalpones.util.Notificador
 import com.example.appalertagalpones.data.FotoStorage
 import com.example.appalertagalpones.data.MonitoreoRepository

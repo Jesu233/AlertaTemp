@@ -2,9 +2,8 @@ package com.example.appalertagalpones.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.alertagalpones.data.PreferenciasRepository
-import com.example.alertagalpones.data.model.Umbrales
 import com.example.appalertagalpones.data.PreferenciasRepository
+import com.example.appalertagalpones.data.model.Umbrales
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow

@@ -47,7 +47,6 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
-import com.example.alertagalpones.data.model.Rol
 import com.example.alertagalpones.ui.screen.AccionScreen
 import com.example.alertagalpones.ui.screen.AjustesScreen
 import com.example.alertagalpones.ui.screen.AlertasScreen
@@ -58,22 +57,19 @@ import com.example.alertagalpones.ui.screen.LoginScreen
 import com.example.alertagalpones.ui.screen.PanelScreen
 import com.example.alertagalpones.ui.screen.PerfilScreen
 import com.example.alertagalpones.ui.screen.SimuladorScreen
-import com.example.alertagalpones.ui.viewmodel.AccionViewModel
-import com.example.alertagalpones.ui.viewmodel.AjustesViewModel
-import com.example.alertagalpones.ui.viewmodel.AlertasViewModel
-import com.example.alertagalpones.ui.viewmodel.DetalleViewModel
-import com.example.alertagalpones.ui.viewmodel.GalponesViewModel
-import com.example.alertagalpones.ui.viewmodel.PanelViewModel
-import com.example.alertagalpones.ui.viewmodel.SesionViewModel
-import com.example.alertagalpones.ui.viewmodel.SimuladorViewModel
+import com.example.appalertagalpones.data.model.Rol
+import com.example.appalertagalpones.ui.viewmodel.AccionViewModel
+import com.example.appalertagalpones.ui.viewmodel.AjustesViewModel
+import com.example.appalertagalpones.ui.viewmodel.AlertasViewModel
+import com.example.appalertagalpones.ui.viewmodel.DetalleViewModel
+import com.example.appalertagalpones.ui.viewmodel.GalponesViewModel
+import com.example.appalertagalpones.ui.viewmodel.PanelViewModel
+import com.example.appalertagalpones.ui.viewmodel.SesionViewModel
+import com.example.appalertagalpones.ui.viewmodel.SimuladorViewModel
 import kotlinx.coroutines.launch
 
 private data class Destino(val ruta: String, val etiqueta: String, val icono: ImageVector)
 
-/**
- * Navegación (Guía 10): Scaffold + TopAppBar + NavigationBar + ModalNavigationDrawer.
- * Las pantallas reciben solo eventos (lambdas); el NavController no sale de este archivo ni llega a los ViewModels.
- */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun AppNavigation(factory: ViewModelProvider.Factory) {

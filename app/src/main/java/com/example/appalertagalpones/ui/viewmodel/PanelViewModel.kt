@@ -31,7 +31,6 @@ data class PanelUiState(
     val ultimasAcciones: List<AccionRegistrada> = emptyList()
 )
 
-/** Pregunta 4 y 14: panel general para jefaturas (y supervisores, limitado a sus galpones). */
 class PanelViewModel(
     repositorio: MonitoreoRepository,
     preferencias: PreferenciasRepository
