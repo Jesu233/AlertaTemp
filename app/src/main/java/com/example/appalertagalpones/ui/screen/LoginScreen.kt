@@ -20,7 +20,6 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Lock
 import androidx.compose.material.icons.filled.Person
-import androidx.compose.material.icons.filled.Thermostat
 import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material3.Button
 import androidx.compose.material3.Checkbox
@@ -37,6 +36,10 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.example.appalertagalpones.ui.components.CampoTexto
 import com.example.appalertagalpones.ui.viewmodel.SesionViewModel
+import androidx.compose.foundation.Image
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.painterResource
+import com.example.appalertagalpones.R
 
 @Composable
 fun LoginScreen(viewModel: SesionViewModel) {
@@ -48,8 +51,12 @@ fun LoginScreen(viewModel: SesionViewModel) {
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.spacedBy(8.dp)
         ) {
-            Icon(Icons.Default.Thermostat, null, Modifier.size(72.dp), tint = MaterialTheme.colorScheme.primary)
-            Text("Alerta Galpones", style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+            Image(
+                painter = painterResource(R.drawable.logo_login),
+                contentDescription = "Logo AlertaTemp",
+                modifier = Modifier.fillMaxWidth(0.85f),
+                contentScale = ContentScale.FillWidth
+            )
             Text("Monitoreo de temperatura y humedad", style = MaterialTheme.typography.bodyMedium)
             Spacer(Modifier.height(16.dp))
 
@@ -84,10 +91,7 @@ fun LoginScreen(viewModel: SesionViewModel) {
                     Text("Ingresar")
                 }
             }
-            Text(
-                "Usuarios ficticios: operario1, supervisor1, jefatura1 · clave Galpon123",
-                style = MaterialTheme.typography.bodySmall
-            )
+
         }
     }
 }

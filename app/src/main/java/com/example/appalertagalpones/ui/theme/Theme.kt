@@ -13,7 +13,7 @@ import com.example.appalertagalpones.data.model.AtencionAlerta
 import com.example.appalertagalpones.data.model.Estado
 
 private val Esquema = lightColorScheme(
-    primary = Color(0xFF2E7D32),
+    primary = Color(0xFF2f4761),
     secondary = Color(0xFF1565C0),
     tertiary = Color(0xFFEF8F00),
     background = Color(0xFFF6F8F5)
