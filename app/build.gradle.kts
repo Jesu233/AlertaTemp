@@ -5,13 +5,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.alertagalpones"
+    namespace = "com.example.appalertagalpones"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.alertagalpones"
+        applicationId = "com.example.appalertagalpones"
         minSdk = 26
         targetSdk = 36
         versionCode = 1
@@ -46,4 +46,8 @@ dependencies {
     ksp(libs.androidx.room.compiler)
 
     debugImplementation(libs.androidx.compose.ui.tooling)
+
+    // Dependencias de las pruebas de ejemplo (ExampleUnitTest / ExampleInstrumentedTest)
+    testImplementation("junit:junit:4.13.2")
+    androidTestImplementation("androidx.test.ext:junit:1.2.1")
 }

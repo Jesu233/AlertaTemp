@@ -1,4 +1,4 @@
-package com.example.alertagalpones.util
+package com.example.appalertagalpones.util
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -12,7 +12,7 @@ import android.os.Build
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import androidx.core.content.ContextCompat
-import com.example.alertagalpones.MainActivity
+import com.example.appalertagalpones.MainActivity
 
 /** Recurso nativo: notificaciones locales de alerta crítica (pregunta 2 y 4). */
 class Notificador(private val context: Context) {

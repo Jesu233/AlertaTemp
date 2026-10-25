@@ -1,4 +1,4 @@
-package com.example.alertagalpones.ui.screen
+package com.example.appalertagalpones.ui.screen
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column

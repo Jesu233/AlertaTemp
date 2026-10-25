@@ -1,4 +1,4 @@
-package com.example.alertagalpones.ui.screen
+package com.example.appalertagalpones.ui.screen
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.expandVertically

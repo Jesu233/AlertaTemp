@@ -1,4 +1,4 @@
-package com.example.alertagalpones.ui.screen
+package com.example.appalertagalpones.ui.screen
 
 import androidx.compose.animation.core.animateIntAsState
 import androidx.compose.animation.core.tween
@@ -23,7 +23,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.example.alertagalpones.util.formatoFechaHora
+import com.example.appalertagalpones.util.formatoFechaHora
 import com.example.appalertagalpones.data.model.Estado
 import com.example.appalertagalpones.data.model.TipoAccion
 import com.example.appalertagalpones.ui.theme.color

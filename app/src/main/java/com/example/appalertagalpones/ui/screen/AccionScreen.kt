@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3Api::class)
 
-package com.example.alertagalpones.ui.screen
+package com.example.appalertagalpones.ui.screen
 
 import android.widget.Toast
 import androidx.activity.compose.rememberLauncherForActivityResult

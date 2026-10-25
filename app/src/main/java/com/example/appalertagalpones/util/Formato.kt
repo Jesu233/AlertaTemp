@@ -1,4 +1,4 @@
-package com.example.alertagalpones.util
+package com.example.appalertagalpones.util
 
 import java.text.SimpleDateFormat
 import java.util.Date

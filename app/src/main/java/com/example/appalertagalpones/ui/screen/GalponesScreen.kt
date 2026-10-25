@@ -1,4 +1,4 @@
-package com.example.alertagalpones.ui.screen
+package com.example.appalertagalpones.ui.screen
 
 import android.Manifest
 import android.content.pm.PackageManager
@@ -57,9 +57,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.example.alertagalpones.util.formatoFechaHora
-import com.example.alertagalpones.util.grados
-import com.example.alertagalpones.util.porcentaje
+import com.example.appalertagalpones.util.formatoFechaHora
+import com.example.appalertagalpones.util.grados
+import com.example.appalertagalpones.util.porcentaje
 import com.example.appalertagalpones.data.model.Estado
 import com.example.appalertagalpones.data.model.Galpon
 import com.example.appalertagalpones.data.model.toEstado

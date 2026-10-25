@@ -1,4 +1,4 @@
-package com.example.alertagalpones.ui.screen
+package com.example.appalertagalpones.ui.screen
 
 import android.content.Intent
 import android.net.Uri

@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3Api::class)
 
-package com.example.alertagalpones.ui.screen
+package com.example.appalertagalpones.ui.screen
 
 import androidx.compose.animation.Crossfade
 import androidx.compose.animation.animateColorAsState
@@ -33,9 +33,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.example.alertagalpones.util.formatoFechaHora
-import com.example.alertagalpones.util.grados
-import com.example.alertagalpones.util.porcentaje
+import com.example.appalertagalpones.util.formatoFechaHora
+import com.example.appalertagalpones.util.grados
+import com.example.appalertagalpones.util.porcentaje
 import com.example.appalertagalpones.data.model.Alerta
 import com.example.appalertagalpones.data.model.AtencionAlerta
 import com.example.appalertagalpones.data.model.Estado

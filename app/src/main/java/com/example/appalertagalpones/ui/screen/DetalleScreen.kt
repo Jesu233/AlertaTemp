@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3Api::class)
 
-package com.example.alertagalpones.ui.screen
+package com.example.appalertagalpones.ui.screen
 
 import android.content.Intent
 import android.net.Uri
@@ -47,22 +47,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import coil.compose.AsyncImage
-import com.example.alertagalpones.data.model.AccionRegistrada
-import com.example.alertagalpones.data.model.Estado
-import com.example.alertagalpones.data.model.Rol
-import com.example.alertagalpones.data.model.TipoAccion
-import com.example.alertagalpones.data.model.Umbrales
-import com.example.alertagalpones.data.model.Usuario
-import com.example.alertagalpones.data.model.toEstado
-import com.example.alertagalpones.ui.components.GraficoLinea
-import com.example.alertagalpones.ui.theme.color
-import com.example.alertagalpones.ui.theme.icono
-import com.example.alertagalpones.ui.viewmodel.DetalleUiState
-import com.example.alertagalpones.ui.viewmodel.DetalleViewModel
-import com.example.alertagalpones.ui.viewmodel.PeriodoGrafico
-import com.example.alertagalpones.util.formatoFechaHora
-import com.example.alertagalpones.util.grados
-import com.example.alertagalpones.util.porcentaje
+import com.example.appalertagalpones.util.formatoFechaHora
+import com.example.appalertagalpones.util.grados
+import com.example.appalertagalpones.util.porcentaje
 import com.example.appalertagalpones.data.model.AccionRegistrada
 import com.example.appalertagalpones.data.model.Estado
 import com.example.appalertagalpones.data.model.Rol
