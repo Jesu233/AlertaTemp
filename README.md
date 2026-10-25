@@ -4,7 +4,7 @@ App Android (Kotlin + Jetpack Compose, MVVM) del caso **"Alerta temprana por alt
 (empresa avícola y ganadera, pollos de engorda). Operarios, supervisores y jefaturas consultan desde el celular
 la temperatura y humedad de cada galpón, reciben notificaciones críticas, revisan el historial y registran acciones.
 
-**Integrantes:** _Nombre Apellido_ · _Nombre Apellido_ — **Equipo N°:** __
+**Integrantes:** _Yuler Campos_ · _María Jesús Silva_
 
 ## Estructura
 ```
